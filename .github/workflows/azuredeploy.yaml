@@ -20,7 +20,7 @@ env:
 name: Build and deploy Python app
 jobs:
  build-and-deploy:
-  runs-on: ubuntu-latest
+  runs-on: self-hosted
   environment: dev
   steps:
   # checkout the repo 
